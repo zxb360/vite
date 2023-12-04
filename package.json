@@ -12,5 +12,5 @@
   "dependencies": {
     "nanoid": "^5.0.4"
   },
-  "type":"module"
+  "type": "module"
 }
