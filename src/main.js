@@ -12,5 +12,4 @@ const displayPass = document.querySelector('h3');
 passowrd.addEventListener('click', () => {
     const randownPass = nanoid();
     displayPass.innerHTML = randownPass;
-//     console.log("button");
 });
