@@ -1,0 +1,31 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "tendo subir direto do projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxb360/vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxb360/vite/issues"
+  },
+  "homepage": "https://github.com/zxb360/vite#readme",
+  "dependencies": {
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^5.0.4",
+    "vite": "^5.0.6"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}
