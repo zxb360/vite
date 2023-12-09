@@ -13,26 +13,26 @@ instalação do vite
 
 Adcionar o tipo no package.json para module
 """
-// package.json
+package.json
 
-// {
-//   "name": "gerador-de-senhas",
-//   "version": "1.0.0",
-//   "description": "",
-//   "main": "index.js",
-//   "scripts": {
-//     "test": "echo \"Error: no test specified\" && exit 1",
-       "dev": "vite --open"
-//   },
-//   "keywords": [],
-//   "author": "",
-//   "license": "ISC",
-//   "dependencies": {
-//     "nanoid": "^4.0.0",
-//     "vite": "^2.0.0"
-//   },
-//   "type": "module"    //<---- adicionar o tipo
-// }
+{
+  "name": "gerador-de-senhas",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "vite --open"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+     "nanoid": "^4.0.0",
+     "vite": "^2.0.0"
+   },
+   "type": "module"    //<---- adicionar o tipo
+ }
 """
 npm install // para instalação do node_module
 
